@@ -26,6 +26,7 @@ body {
         font-weight: $regular-weight;
         .signin--account-link {
           color: $default-color;
+          text-decoration: none;
           &:hover {
             color: $hover-color;
           }
@@ -41,14 +42,13 @@ body {
         font-size: $small-title-size;
         font-weight: $regular-weight;
         color: $error-color;
-        // visibility: hidden;
+        visibility: hidden;
       }
     }
   }
 }
 
 .signin {
-  width: 100%;
   .signin--section {
     display: flex;
     flex-direction: column;
@@ -58,19 +58,19 @@ body {
       padding-bottom: $space-4;
     }
     .signin__input {
-      width: 320px;
-      height: 32px;
+      width: $input-width;
+      height: $input-height;
       font-family: $font-primary;
       font-size: $regular-size;
       color: $black-color;
-      border: 1px solid $default-color;
-      padding: 0 $space-8;
+      border: $bd-1s $default-color;
+      padding: $space-0 $space-8;
       border-radius: $br-4;
       &:hover {
-        border: 1px solid $hover-color;
+        border: $bd-1s $hover-color;
       }
       &:active {
-        border: 1px solid $active-color;
+        border: $bd-1s $active-color;
       }
     }
     .signin--text-spacing {
@@ -93,6 +93,7 @@ body {
   }
   .signin--spacing {
     padding-top: $space-40;
+    position: relative;
   }
   .signin__button {
     padding-top: $space-40;

@@ -7,14 +7,16 @@ $title-size: 40px;
 $regular-size: 16px;
 $small-title-size: 20px;
 
-$title-weight: 900;
+$title-weight: 700;
 $regular-weight: 400;
 $small-title-weight: 400;
 
-// Radius and borders
+// Radius and shadow
 $br-4: 4px;
 $br-8: 8px;
 $br-16: 16px;
+
+$bd-1s: 1px solid;
 
 // Opacity
 $opacity-80: rgba(0, 0, 0, 0.8);
@@ -45,4 +47,6 @@ $space-32: 32px;
 $space-40: 40px;
 $space-64: 64px;
 
-// Button
+// Input
+$input-width: 320px;
+$input-height: 32px;

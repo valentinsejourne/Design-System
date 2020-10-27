@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: $space-0;
+  padding: $space-0;
   font-family: $font-primary;
   font-size: $regular-size;
   .signup--container {
@@ -26,6 +26,7 @@ body {
         font-weight: $regular-weight;
         .signup--account-link {
           color: $default-color;
+          text-decoration: none;
           &:hover {
             color: $hover-color;
           }
@@ -41,7 +42,7 @@ body {
         font-size: $small-title-size;
         font-weight: $regular-weight;
         color: $error-color;
-        // visibility: hidden;
+        visibility: hidden;
       }
     }
   }
@@ -57,19 +58,19 @@ body {
       padding-bottom: $space-4;
     }
     .signup__input {
-      width: 320px;
-      height: 32px;
+      width: $input-width;
+      height: $input-height;
       font-family: $font-primary;
       font-size: $regular-size;
       color: $black-color;
-      border: 1px solid $default-color;
+      border: $bd-1s $default-color;
       padding: 0 $space-8;
       border-radius: $br-4;
       &:hover {
-        border: 1px solid $hover-color;
+        border: $bd-1s $hover-color;
       }
       &:active {
-        border: 1px solid $active-color;
+        border: $bd-1s $active-color;
       }
     }
     .signup--text-spacing {

@@ -19,7 +19,7 @@ body .signin--container .signin--card {
 }
 body .signin--container .signin--card .signin--title {
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
   margin: 0;
   padding: 0;
 }
@@ -31,6 +31,7 @@ body .signin--container .signin--card .signin--account {
 }
 body .signin--container .signin--card .signin--account .signin--account-link {
   color: #8d7cf8;
+  text-decoration: none;
 }
 body .signin--container .signin--card .signin--account .signin--account-link:hover {
   color: #796ad8;
@@ -45,11 +46,9 @@ body .signin--container .signin--card .text--error {
   font-size: 20px;
   font-weight: 400;
   color: #ff4b42;
+  visibility: hidden;
 }
 
-.signin {
-  width: 100%;
-}
 .signin .signin--section {
   display: flex;
   flex-direction: column;
@@ -94,6 +93,7 @@ body .signin--container .signin--card .text--error {
 }
 .signin .signin--spacing {
   padding-top: 40px;
+  position: relative;
 }
 .signin .signin__button {
   padding-top: 40px;
@@ -136,7 +136,7 @@ body .signup--container .signup--card {
 }
 body .signup--container .signup--card .signup--title {
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
   margin: 0;
   padding: 0;
 }
@@ -148,6 +148,7 @@ body .signup--container .signup--card .signup--account {
 }
 body .signup--container .signup--card .signup--account .signup--account-link {
   color: #8d7cf8;
+  text-decoration: none;
 }
 body .signup--container .signup--card .signup--account .signup--account-link:hover {
   color: #796ad8;
@@ -162,6 +163,7 @@ body .signup--container .signup--card .text--error {
   font-size: 20px;
   font-weight: 400;
   color: #ff4b42;
+  visibility: hidden;
 }
 
 .signup .signup--section {
