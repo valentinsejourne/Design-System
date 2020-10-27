@@ -64,7 +64,7 @@ body {
       font-size: $regular-size;
       color: $black-color;
       border: $bd-1s $default-color;
-      padding: 0 $space-8;
+      padding: $space-0 $space-8;
       border-radius: $br-4;
       &:hover {
         border: $bd-1s $hover-color;

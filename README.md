@@ -1,6 +1,6 @@
 # Design System
 
-Design System project we had to make.
+Design System project we had to do.
 
 #### The team
 
