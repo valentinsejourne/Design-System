@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System - Sign In</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="signup--container">
+      <div class="signup--card">
+        <h1 class="signup--title">Sign Up</h1>
+        <span class="signup--account">
+          Already got an account? &nbsp;<a
+            href="../index.html"
+            class="signup--account-link"
+            >Sign In!</a
+          >
+        </span>
+        <span class="text--error">Error message when there is a mistake</span>
+        <form action="#" method="POST" class="signup">
+          <div class="signup--section">
+            <label for="mail" class="signup__label">Email</label>
+            <input type="email" id="mail" name="usermail" class="signup__input" />
+          </div>
+          <div class="signup--section signup--spacing">
+            <label for="password" class="signup__label">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="signup__input"
+            />
+            <div class="signup--section signup--spacing">
+                <label for="password" class="signup__label">Password confirmation</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="signup__input"
+                />
+          </div>
+          <div class="signup__button">
+            <button type="submit" class="signup__button-type">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+// Font and text
+$font-primary: "Lato";
+
+$title-size: 40px;
+$regular-size: 16px;
+$small-title-size: 20px;
+
+$title-weight: 900;
+$regular-weight: 400;
+$small-title-weight: 400;
+
+// Radius and borders
+$br-4: 4px;
+$br-8: 8px;
+$br-16: 16px;
+
+// Opacity
+$opacity-80: rgba(0, 0, 0, 0.8);
+$opacity-60: rgba(0, 0, 0, 0.6);
+$opacity-50: rgba(0, 0, 0, 0.5);
+$opacity-40: rgba(0, 0, 0, 0.4);
+$opacity-25: rgba(0, 0, 0, 0.25);
+$opacity-20: rgba(0, 0, 0, 0.2);
+
+// Colors
+$white-color: #ffffff;
+$black-color: #000000;
+
+$default-color: #8d7cf8;
+$hover-color: #796ad8;
+$active-color: #b3a7ff;
+$focused-color: #00b6ff;
+$error-color: #ff4b42;
+
+// Paddings and margins
+$space-0: 0;
+$space-2: 2;
+$space-4: 4px;
+$space-8: 8px;
+$space-16: 16px;
+$space-24: 24px;
+$space-32: 32px;
+$space-40: 40px;
+$space-64: 64px;
+
+// Button
